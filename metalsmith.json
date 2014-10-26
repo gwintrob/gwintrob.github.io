@@ -1,5 +1,6 @@
 {
   "source": "./contents",
+  "destination": "/.",
   "metadata": {
     "title": "My Wintersmith-Powered Blog",
     "description": "My second, super-cool, Wintersmith-powered blog."
