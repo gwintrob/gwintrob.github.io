@@ -1,0 +1,32 @@
+body {
+  color: rgb(66, 63, 55);
+}
+
+.header {
+  margin-left: auto;
+  margin-right: auto;
+  width: 512px;
+  text-align: center;
+}
+
+.social-links a {
+  color: rgba(66, 63, 55, 0.15);
+  padding-right: 16px;
+  transition: color 0.15s;
+  font-size: 32px;
+}
+
+.social-links a:last-of-type {
+  padding-right: 0;
+}
+
+.social-links a:hover {
+  color: #423f37;
+  opacity: 1;
+}
+
+.name {
+  font-family: Raleway, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 64px;
+  font-weight: 100;
+}
