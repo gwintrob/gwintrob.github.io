@@ -1,6 +1,37 @@
+/* Home */
+
 body {
   color: rgb(66, 63, 55);
+  font-family: Raleway, 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+a {
+  color: #423f37;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6DCEBF;
+}
+
+a.a-fade {
+  color: rgba(66, 63, 55, 0.15);
+  transition: color 0.15s;
+}
+
+a.a-fade:hover {
+  color: #423f37;
+  opacity: 1;
+}
+
+.nav {
+  position: fixed;
+  top: 1.3em;
+  left: 1.3em;
+  font-size: 32px;
+}
+
+/* Header */
 
 .header {
   margin-left: auto;
@@ -9,10 +40,9 @@ body {
   text-align: center;
 }
 
+
 .social-links a {
-  color: rgba(66, 63, 55, 0.15);
   padding-right: 16px;
-  transition: color 0.15s;
   font-size: 32px;
 }
 
@@ -20,13 +50,54 @@ body {
   padding-right: 0;
 }
 
-.social-links a:hover {
-  color: #423f37;
-  opacity: 1;
-}
-
 .name {
-  font-family: Raleway, 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 64px;
   font-weight: 100;
+}
+
+/* Index */
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.3em;
+  width: 800px;
+}
+
+.collection, .article {
+  font-weight: 600;
+  padding-bottom: 1em;
+}
+
+.article {
+  display: inline;
+}
+
+.article-link {
+  float: left;
+  margin-right: 1em;
+}
+
+.article-date {
+  float: left;
+  font-weight: 400;
+  font-size: 0.8em;
+  color: #c7c2b8;
+  padding-top: 0.1em;
+}
+
+
+/* Books */
+
+.book {
+  display: inline;
+}
+
+.book-link {
+  float: left;
+  margin-right: 2em;
+}
+
+.book-date {
+  float: left;
 }
