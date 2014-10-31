@@ -6,9 +6,18 @@
     "description": "Gordon Wintrob's Personal Site"
   },
   "plugins": {
+    "metalsmith-metadata": {
+      "books": "books.json"
+    },
     "metalsmith-markdown": {},
     "metalsmith-permalinks": {
-      "pattern": ":title"
+      "pattern": ":collection/:title"
+    },
+    "metalsmith-collections": {
+      "main": {
+        "sortBy": "title"
+      },
+      "articles": {}
     },
     "metalsmith-templates": {
       "engine": "jade",
