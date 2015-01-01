@@ -6,9 +6,8 @@ block content
       .collection
         // a.collection-link(href=collection.path)= collection.title
   .articles
-    - var monthNames = [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ];
     - each article in articles
-      // .article
-      //   a.article-link(href=article.path)= article.title
-      //   .article-date #{monthNames[article.date.getMonth()]} #{article.date.getFullYear()}
+      .article-index
+        a.article-index-link(href=article.path)= article.title
+        .article-index-date #{monthNames[article.date.getMonth()]} #{article.date.getFullYear()}
 

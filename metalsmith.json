@@ -9,6 +9,10 @@
     "metalsmith-metadata": {
       "books": "books.json"
     },
+    "metalsmith-define": {
+      "monthNames": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    },
+    "metalsmith-drafts": true,
     "metalsmith-markdown": {},
     "metalsmith-permalinks": {
       "pattern": ":collection/:title"

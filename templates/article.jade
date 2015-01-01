@@ -1,4 +1,8 @@
 extends base.jade
 
-block main
-  Hey
+block content
+  h1.article-title= title
+  h3.article-date #{monthNames[date.getMonth()]} #{date.getFullYear()}
+  .article-contents!= contents
+
+  include footer.jade
