@@ -3,7 +3,12 @@
   "destination": "/.",
   "metadata": {
     "title": "Gordon Wintrob",
-    "description": "Gordon Wintrob's Personal Site"
+    "description": "Gordon Wintrob's Personal Site",
+    "site": {
+      "author": "Gordon Wintrob",
+      "title": "Gordon Wintrob's Personal Site",
+      "url": "http://gwintrob.com/"
+    }
   },
   "plugins": {
     "metalsmith-metadata": {
@@ -26,6 +31,9 @@
     "metalsmith-templates": {
       "engine": "jade",
       "directory": "./templates"
+    },
+    "metalsmith-feed": {
+      "collection": "articles"
     }
   }
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gordon Wintrob's Personal Site]]></title><description><![CDATA[Gordon Wintrob's Personal Site]]></description><link>http://gwintrob.com/</link><generator>metalsmith-feed</generator><lastBuildDate>Thu, 01 Jan 2015 21:10:52 GMT</lastBuildDate><atom:link href="http://gwintrob.com/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Gordon Wintrob]]></author><item><title><![CDATA[2015 Resolutions]]></title><description><![CDATA[<!DOCTYPE html><html><head><title>2015 Resolutions</title><meta name="description" content="Gordon Wintrob's Personal Site"><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,400,600"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/ss-gizmo.css"><link rel="stylesheet" type="text/css" href="css/ss-social-circle.css"></head><body><div class="nav"><a href="/" class="a-fade ss-gizmo ss-home a-home"></a></div><div class="header"><h1 class="name">Gordon Wintrob</h1><div class="social-links"><a href="https://www.linkedin.com/in/gwintrob" class="a-fade ss-icon">linkedin</a><a href="https://twitter.com/gwintrob" class="a-fade ss-icon">twitter</a><a href="https://github.com/gwintrob" class="a-fade ss-icon">octocat</a><a href="/rss.xml" class="a-fade ss-icon">rss</a><a href="mailto:gwintrob@gmail.com?Subject=Hey Gordon" class="a-fade ss-icon">mail</a></div></div><div class="main"><h1 class="article-title">2015 Resolutions</h1><h3 class="article-date">December 2014</h3><div class="article-contents"><p>Rather than write down New Year&#39;s resolutions, I tend to think of general areas to improve over the following year.
+Unfortunately, I&#39;m left without any concrete, measurable improvements, so I&#39;m going to take a different approach for 2015.
+Here are two specific resolutions I&#39;m gunning for over the next 12 months.</p>
+<ol>
+<li><p>Anf&auml;nger Deutsch</p>
+<p>For the past two months, I&#39;ve been learning German via <a href="https://www.duolingo.com/gwintrob">Duolingo</a> and <a href="http://www.memrise.com/user/gordonw/">Memrise</a>.
+I currently know roughly 500 words and I&#39;ll write more about my motivation and techniques in a future post.
+My overall goal is to become a competent beginner German speaker by the end of 2015.</p>
+<p>For a concrete task, I commit to learning 125 words per month, which means I&#39;ll be on the same level as a Kindergarten student according to <a href="http://psycnet.apa.org/psycinfo/2005-03588-011">this paper</a>.
+By the way, German &quot;die Kinder&quot; means &quot;the children&quot;.</p>
+</li>
+<li><p>Create More</p>
+<p>It feels so good to binge watch House of Cards, read good novels, and plow through Twitter.
+<a href="https://twitter.com/mikaelcho">Mikael Cho</a> provides a good summary <a href="https://medium.com/@mikaelcho/create-more-than-you-consume-9c1bc89dc71d">here</a>.
+As a software engineer, I&#39;m lucky that my biggest hobby is also my line of work <em>and</em> it&#39;s a hobby with easily-shared output.</p>
+<p>To deliver on this goal, I&#39;m going to write at least one article here each month for the next 12 months.
+I have a backlog of posts on startups, data science, and half-baked side projects.
+Committing to monthly writing will force me to put pen to paper with these ideas.
+If I have nothing to say for a month, then I know I&#39;m not following through on this goal.</p>
+</li>
+</ol>
+<p>Also, thanks to design inspiration from my roommate <a href="http://ianstormtaylor.com/">Ian Storm Taylor</a> and his open source <a href="http://www.metalsmith.io/">Metalsmith</a> for powering this blog.
+Lots of improvements to make to the site :-)
+Enjoy the New Year&#39;s Eve celebrations!</p>
+</div><div class="footer"><hr><small>Want to get in touch? <a href="https://twitter.com/gwintrob">Tweet</a> 
+at me.</small></div></div></body></html>]]></description><link>http://gwintrob.com/articles/2015-resolutions</link><guid isPermaLink="true">http://gwintrob.com/articles/2015-resolutions</guid><dc:creator><![CDATA[Gordon Wintrob]]></dc:creator><pubDate>Wed, 31 Dec 2014 00:00:00 GMT</pubDate></item></channel></rss>
