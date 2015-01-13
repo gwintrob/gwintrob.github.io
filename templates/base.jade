@@ -3,10 +3,11 @@ html
   head
     title= title
     meta(name='description', content= description)
-    link(rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,400,600")
+    link(rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Raleway:100,400,600')
     link(rel='stylesheet', type='text/css', href='css/style.css')
     link(rel='stylesheet', type='text/css', href='css/ss-gizmo.css')
     link(rel='stylesheet', type='text/css', href='css/ss-social-circle.css')
+    block css
   body
     .nav
       a.a-fade.ss-gizmo.ss-home.a-home(href='/')
@@ -20,3 +21,5 @@ html
         a.a-fade.ss-icon(href='mailto:gwintrob@gmail.com?Subject=Hey Gordon') mail
     .main
       block content
+    block scripts
+
