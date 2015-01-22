@@ -5,7 +5,7 @@ collection: articles
 template: graph_article.jade
 ---
 
-Segment is a customer data hub that makes it easy for websites and mobile apps to integrate 3rd-party analytics tools.
+[Segment](https://segment.com/) is a customer data hub that makes it easy for websites and mobile apps to integrate 3rd-party analytics tools.
 With all the customer data already flowing through them, Segment is opening a powerful distribution channel for data-powered SaaS businesses.
 
 <img src="images/segment_integrations.png" class="img-segment-integrations"></img>
