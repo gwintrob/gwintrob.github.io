@@ -1,5 +1,17 @@
 /* Home */
 
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2.0rem;
+  margin-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.2rem;
+}
+
 html, body {
   color: rgb(66, 63, 55);
   font-family: Raleway, 'Helvetica Neue', Helvetica, sans-serif;
@@ -60,13 +72,13 @@ a.a-fade:hover {
 }
 
 .name {
-  font-size: 64px;
+  font-size: 2em;
   font-weight: 100;
 }
 
 /* Index */
 
-.main {
+.index {
   margin-left: auto;
   margin-right: auto;
   margin-top: 1.3em;
@@ -110,10 +122,25 @@ a.a-fade:hover {
 
 /* Articles */
 
+.article {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.3em;
+  width: 34em;
+  line-height: 1.4;
+}
+
 p + p {
   margin-top: 1em;
 }
 
 .chart, img {
-  padding: 2em 0;
+  padding: 1.5em 0;
+}
+
+.img-segment-integrations {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 320px;
 }

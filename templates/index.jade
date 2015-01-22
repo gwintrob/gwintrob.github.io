@@ -1,13 +1,14 @@
 extends base.jade
 
 block content
-  .collections
-    - each collection in main
-      .collection
-        // a.collection-link(href=collection.path)= collection.title
-  .articles
-    - each article in articles
-      .article-index
-        a.article-index-link(href=article.path)= article.title
-        .article-index-date #{monthNames[article.date.getMonth()]} #{article.date.getFullYear()}
+  .index
+    .collections
+      - each collection in main
+        .collection
+          // a.collection-link(href=collection.path)= collection.title
+    .articles
+      - each article in articles.reverse()
+        .article-index
+          a.article-index-link(href=article.path)= article.title
+          .article-index-date #{monthNames[article.date.getMonth()]} #{article.date.getFullYear()}
 

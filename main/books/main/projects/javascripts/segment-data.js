@@ -1,6 +1,7 @@
 COUNTRY_CHART_THRESHOLD = 0.025;
 REGION_CHART_THRESHOLD = 0.025;
 AGGREGATE_KEY = 'segment-data-agg';
+CHART_HEIGHT = 400;
 
 function getPieChartData(data, threshold) {
   var keys = Object.keys(data);
@@ -52,7 +53,7 @@ function plotPopularCharts(popularData1, popularData2) {
   var popularChart1 = c3.generate({
     bindto: '#popular-chart1',
     size: {
-      height: 480
+      height: CHART_HEIGHT
     },
     data: {
       columns: [
@@ -79,13 +80,15 @@ function plotPopularCharts(popularData1, popularData2) {
         height: 130
       },
       y: {
-        max: 14000,
+        // max: 14000,
+        // min: 1000,
+        max: 4500,
         min: 1000,
         padding: {
           top: 0, bottom: 0
         },
         tick: {
-          count: 5
+          count: 8
         }
       },
       y2: {
@@ -107,7 +110,7 @@ function plotPopularCharts(popularData1, popularData2) {
   var popularChart2 = c3.generate({
     bindto: '#popular-chart2',
     size: {
-      height: 480
+      height: CHART_HEIGHT
     },
     data: {
       columns: [
@@ -131,16 +134,18 @@ function plotPopularCharts(popularData1, popularData2) {
           rotate: 45,
           multiline: false
         },
-        height: 130
+        height: 100
       },
       y: {
-        max: 1300,
-        min: 400,
+        // max: 1300,
+        // min: 400,
+        max: 900,
+        min: 300,
         padding: {
           top: 0, bottom: 0
         },
         tick: {
-          count: 5
+          count: 7
         }
       },
       y2: {
@@ -193,7 +198,7 @@ function plotMarketChart(marketData) {
   var marketChart = c3.generate({
     bindto: '#market-chart',
     size: {
-      height: 480
+      height: CHART_HEIGHT
     },
     data: {
       columns: [
@@ -214,7 +219,7 @@ function plotMarketChart(marketData) {
           rotate: 55,
           multiline: false
         },
-        height: 150
+        height: 100
       },
       y: {
         max: 7,
@@ -228,8 +233,14 @@ function plotMarketChart(marketData) {
         }
       },
       y2: {
+        max: 0.03,
+        min: 0,
+        padding: {
+          top: 0, bottom: 0
+        },
         show: true,
         tick: {
+          count: 7,
           format: d3.format('.2p')
         }
       }
@@ -254,7 +265,7 @@ function plotFundingChart(fundingData) {
   var popularChart1 = c3.generate({
     bindto: '#funding-chart',
     size: {
-      height: 480
+      height: CHART_HEIGHT
     },
     data: {
       columns: [
@@ -308,7 +319,7 @@ function plotChangingChart(changingData) {
   var changingChart = c3.generate({
     bindto: '#changing-chart',
     size: {
-      height: 480
+      height: CHART_HEIGHT
     },
     data: {
       columns: [
@@ -385,10 +396,26 @@ $(function () {
     }
   });
 
+  var topStats = {};
+  var nonTrackers = [
+    'Facebook Connect',
+    'Typekit by Adobe',
+    'Twitter Button',
+    'Facebook Social Plugins',
+    'Google+ Platform',
+    'AddThis',
+    'ShareThis'
+  ];
+  for (var tracker in allStats) {
+    var stat = allStats[tracker];
+    if (nonTrackers.indexOf(tracker) === -1)
+      topStats[tracker] = stat;
+  }
+
   var popularSortFn = function (tracker1, tracker2) {
     return tracker2[1].total - tracker1[1].total;
   };
-  var popularData = getTopChartData(allStats, 20, popularSortFn);
+  var popularData = getTopChartData(topStats, 20, popularSortFn);
   var popularData1 = popularData.map(function (data) { return data.slice(0, 10); });
   popularData1[1].unshift('Companies');
   popularData1[2].unshift('Segment Penetration');

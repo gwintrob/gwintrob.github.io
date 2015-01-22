@@ -228,8 +228,14 @@ function plotMarketChart(marketData) {
         }
       },
       y2: {
+        max: 0.03,
+        min: 0,
+        padding: {
+          top: 0, bottom: 0
+        },
         show: true,
         tick: {
+          count: 7,
           format: d3.format('.2p')
         }
       }

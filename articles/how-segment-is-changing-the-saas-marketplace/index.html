@@ -1,78 +1,61 @@
-<!DOCTYPE html><html><head><title>How Segment is Changing the SaaS Marketplace</title><meta name="description" content="Gordon Wintrob's Personal Site"><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,400,600"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/ss-gizmo.css"><link rel="stylesheet" type="text/css" href="css/ss-social-circle.css"><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.css"></head><body><div class="nav"><a href="/" class="a-fade ss-gizmo ss-home a-home"></a></div><div class="header"><h1 class="name">Gordon Wintrob</h1><div class="social-links"><a href="https://www.linkedin.com/in/gwintrob" class="a-fade ss-icon">linkedin</a><a href="https://twitter.com/gwintrob" class="a-fade ss-icon">twitter</a><a href="https://github.com/gwintrob" class="a-fade ss-icon">octocat</a><a href="/rss.xml" class="a-fade ss-icon">rss</a><a href="mailto:gwintrob@gmail.com?Subject=Hey Gordon" class="a-fade ss-icon">mail</a></div></div><div class="main"><h1 class="article-title">How Segment is Changing the SaaS Marketplace</h1><h3 class="article-date">January 2015</h3><div class="article-contents"><p>Segment is a customer data hub that makes it ridiculously easy to send data to 3rd-party analytics and tracking tools.
-Basically, you integrate Segment (through a JavaScript snippet, mobile SDK, or API) and then use their simple interface to manage how data flows to all of their <a href="https://segment.com/integrations">integrations</a>.</p>
-<p><img src="images/segment_integrations.png" alt="Segment Integrations"></p>
-<p>This is brilliant for three reasons:</p>
-<ol>
-<li>Segment defines a single clean API and you save engineering time from having to integrate individual tools.</li>
-<li>You avoid lock-in and can experiment with new tools rapidly.</li>
-<li>Through this customer data hub, Segment can combine the different tools in ways that weren&#39;t possible before.
-For example, they have a <a href="https://segment.com/redshift">SQL interface</a> that lets you query all of your analytics data that was previously silo-ed with separate services.</li>
-</ol>
-<p>Full disclosure - I&#39;m close with the Segment team and they were customers of my company <a href="https://stacklead.com/">StackLead</a>.
-Everything in this post uses public data.
+<!DOCTYPE html><html><head><title>How Segment is Changing the SaaS Marketplace</title><meta name="description" content="Gordon Wintrob's Personal Site"><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,400,600"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/ss-gizmo.css"><link rel="stylesheet" type="text/css" href="css/ss-social-circle.css"><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.css"></head><body><div class="nav"><a href="/" class="a-fade ss-gizmo ss-home a-home"></a></div><div class="header"><h1 class="name">Gordon Wintrob</h1><div class="social-links"><a href="https://www.linkedin.com/in/gwintrob" class="a-fade ss-icon">linkedin</a><a href="https://twitter.com/gwintrob" class="a-fade ss-icon">twitter</a><a href="https://github.com/gwintrob" class="a-fade ss-icon">octocat</a><a href="/rss.xml" class="a-fade ss-icon">rss</a><a href="mailto:gwintrob@gmail.com?Subject=Hey Gordon" class="a-fade ss-icon">mail</a></div></div><div class="article"><h1 class="article-title">How Segment is Changing the SaaS Marketplace</h1><div class="article-contents"><p>Segment is a customer data hub that makes it easy for websites and mobile apps to integrate 3rd-party analytics tools.
+With all the customer data already flowing through them, Segment is opening a powerful distribution channel for data-powered SaaS businesses.</p>
+<p><img src="images/segment_integrations.png" class="img-segment-integrations"></img></p>
+<p>Full disclosure &mdash; I&#39;m close with the Segment team and they were customers of my company <a href="https://stacklead.com/">StackLead</a>.
 I think they&#39;re poised to win with:
 an <a href="http://www.forbes.com/pictures/mll45kfhf/calvin-french-owen-25-ian-storm-taylor-25-llya-volodarsky-24-peter-reinhardt-25/">incredible team</a> with <a href="http://www.forbes.com/sites/benkepes/2014/10/08/segment-raises-15m-for-a-customer-data-hub/">serious fundraising</a>,
-<a href="https://github.com/segmentio/analytics.js">serious</a> <a href="https://github.com/segmentio/myth">open-source</a> <a href="https://github.com/segmentio/nightmare">contributions</a>,
-and a number of important enterprise-level customers like Nokia and Live Nation.</p>
-<p>Below I break down Segment&#39;s penetration into funded startups and discuss how they&#39;re opening up a new SaaS distribution channel.</p>
-<h2 id="dataset">Dataset</h2>
+<a href="https://github.com/segmentio/analytics.js">huge</a> <a href="https://github.com/segmentio/myth">open-source</a> <a href="https://github.com/segmentio/nightmare">contributions</a>,
+and a number of important enterprise customers like Nokia and Live Nation.
+Everything in this post uses public data.</p>
+<h2 id="crawling-for-customer-trackers">Crawling for Customer Trackers</h2>
 <h3 id="overview">Overview</h3>
-<p>For the initial dataset, I used the <a href="https://info.crunchbase.com/about/crunchbase-data-exports/">Crunchbase Data Export</a> from December 2, 2014.
-I filtered this data down to the 20,186 companies that have raised more than $1m USD in funding and are still operating.</p>
-<p>Across this set of companies, there were 895 distinct trackers (e.g. analytics tools, web bugs, and ad pixels).
-You can use a tool like <a href="https://www.ghostery.com">Ghostery</a> to manually view the trackers on a site you&#39;re browsing.
-On average, each company used 3 trackers.</p>
-<h3 id="countries-and-regions">Countries and Regions</h3>
-<p>The company dataset is very US-focused, with 17% based in the SF Bay Area.
-You can deselect the &quot;Other&quot; label to drill down into the most common regions.</p>
-<div id="country-chart" class="chart">
-</div>
-
-<div id="region-chart" class="chart">
-</div>
-
-<h3 id="popular-trackers-and-segment">Popular Trackers and Segment</h3>
-<p>Here is the number of companies for each of the top 10 customer data trackers, along with the percentage of those companies that use Segment.
-These are all free tools that provide ads or mobile install attribution.
-Google Analytics dominates - nearly 13,000 companies (63% of the dataset) use the popular service, which is free for up to <a href="https://support.google.com/analytics/answer/1070983">huge limits</a>.
-Only 224 companies in this group (2%) are also Segment customers.</p>
+<p>I analyzed the <a href="https://info.crunchbase.com/about/crunchbase-data-exports/">Crunchbase Data Export</a> from December 2, 2014.
+First, I filtered this data down to the 20,186 companies that have raised more than $1m USD in funding and are still operating.
+Then, I crawled all of the company websites to identify the SaaS trackers they had installed.&nbsp;[1]</p>
+<p>Across this set of companies, there were 895 distinct trackers (e.g.&nbsp;analytics tools, web bugs, and ad pixels) and each company used <strong>3&nbsp;trackers</strong> on average.
+Traditionally, installing each of these trackers is painful, error-prone work that&#39;s pretty boring for programmers.
+The Segment platform suddenly makes it possible to integrate precise tools for parts of sales, marketing, customer success, etc. without wasting valuable engineering time.</p>
+<h3 id="the-tracking-landscape">The Tracking Landscape</h3>
+<p>First, I looked at the number of companies that installed each of the top 10 data trackers, along with the percentage of those companies that also integrated Segment.
+The top trackers are mostly free tools, so they scale for consumer products that are less likely than B2B companies to need customer-level tracking.</p>
 <div id="popular-chart1" class="chart">
 </div>
 
-<p>The next 10 most popular trackers include a number of paid analytics and marketing automation products.
-Two datapoints jump out:</p>
-<ol>
-<li><strong>Marketo</strong>: Only 2% of Marketo customers also use Segment.
-Marketo, a public company worth about $1.4 billion, sells enterprise-grade marketing automation software.
-Companies that use Marketo are willing to a premium and Segment will need to continue expanding its enterprise offering to compete for their analytics spend.</li>
-<li><strong>Mixpanel</strong>: Mixpanel is an advanced analytics platform that lots of startups love (and recently raised a <a href="http://techcrunch.com/2014/12/18/mixpanel-raises-65-million/">$65 million Series B</a>).
-Segment has a solid 17% penetration with their customer base.</li>
-</ol>
+<p>Google Analytics dominates &mdash; nearly 13,000 companies (63% of the dataset) use the popular service, but only 224 companies in this group (2%) are also Segment customers.</p>
+<p>The next 10 most popular trackers include a number of paid analytics and marketing automation products.</p>
 <div id="popular-chart2" class="chart">
 </div>
 
-<h3 id="drilling-down-by-market">Drilling down by Market</h3>
-<p>The next chart shows data for the top 5 markets, representing 47% of the companies in the dataset.
-The datapoints are sorted based on the average number of trackers used by the companies in each market.</p>
-<div id="market-chart" class="chart">
-</div>
-
-<p>We see an interesting correlation: as the number of trackers per company website decreases, Segment&#39;s penetration in the market also goes down.
-This makes sense - Segment&#39;s basic value proposition appeals to companies that don&#39;t want to waste engineering effort on integrating trackers.</p>
+<p>Datapoints that jump out:</p>
+<ol>
+<li><strong>Marketo and Pardot</strong>: Only 2% of Marketo customers and 1% of Pardot customers also use Segment.
+Companies that use these services are willing to pay a premium and Segment&#39;s biggest opportunity is selling into large enterprises with big integration issues.</li>
+<li><strong>Mixpanel, Olark, and KISSmetrics</strong>: These are approachable tools that lots of startups love.
+Segment has a solid 12-17% penetration with their customer base.</li>
+</ol>
 <h3 id="drilling-down-by-funding">Drilling down by Funding</h3>
-<p>Here&#39;s a breakdown of the number of companies in the dataset by amount of funding.
-Although the percentages are small, Segment&#39;s greatest customer gains will come from companies that have raised $3-5m and $11-13m.</p>
+<p>Segment has the greatest penetration with earlier-stage companies ($1&#8209;3mm in funding) and obviously has a big opportunity to move upmarket.
+Also, as these smaller companies grow, Segment is well-positioned to cater to their expanding customer data needs.</p>
 <div id="funding-chart" class="chart">
 </div>
 
+<h3 id="drilling-down-by-market">Drilling down by Market</h3>
+<p>The next chart shows data for the top 10 markets, sorted based on the average number of trackers used by the companies in each market.</p>
+<div id="market-chart" class="chart">
+</div>
+
+<p>We see an interesting correlation: as the number of trackers per company decreases (from 6.1 for the average e-commerce website to 1.0 for biotech), Segment&#39;s penetration in the market also goes down.
+Segment is increasingly valuable for industries that spend engineering effort on implementing trackers.
+Importantly, these are high-growth industries like e-commerce and enterprise software that are looking to adopt new SaaS solutions.</p>
 <h3 id="how-segment-is-changing-the-saas-marketplace">How Segment is Changing the SaaS Marketplace</h3>
 <p>Segment&#39;s biggest impact is unprecedented distribution for new analytics tools and trackers.
-For companies like <a href="http://customer.io/">Customer.io</a> and <a href="https://amplitude.com/">Amplitude</a>, two thirds of their customers in the dataset are also Segment users.
-This chart shows the trackers with the highest percentage of customers using Segment:</p>
+For companies like <a href="http://customer.io/">Customer.io</a> and <a href="https://amplitude.com/">Amplitude</a>, 2/3 of their customers are also Segment users.
+Here are the trackers with the highest percentage of customers using Segment:</p>
 <div id="changing-chart" class="chart">
 </div>
 
 <p>Previously, integration pains were a huge barrier for new SaaS products to gain traction.
 Segment is well-positioned to solve this problem and make it extremely easy for businesses (from startups to large enterprises) to mix and match their ideal customer data setup.</p>
+<p>[1] You can use a tool like <a href="https://www.ghostery.com">Ghostery</a> to manually view the trackers on a site you&#39;re browsing.</p>
 </div><div class="footer"><hr><small>Want to get in touch? <a href="https://twitter.com/gwintrob">Tweet</a> 
 at me.</small></div></div><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script><script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.js"></script><script type="text/javascript" src="data/aggregate_data.js"></script><script type="text/javascript" src="javascripts/segment-data.js"></script></body></html>
