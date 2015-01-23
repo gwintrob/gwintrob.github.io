@@ -17,9 +17,7 @@ an [incredible team](http://www.forbes.com/pictures/mll45kfhf/calvin-french-owen
 and a number of important enterprise customers like Nokia and Live Nation.
 Everything in this post uses public data.
 
-## Crawling for Customer Trackers
-
-### Overview
+### Crawling for Customer Trackers
 
 I analyzed the [Crunchbase Data Export](https://info.crunchbase.com/about/crunchbase-data-exports/) from December 2, 2014.
 First, I filtered this data down to the 20,186 companies that have raised more than $1m USD in funding and are still operating.
