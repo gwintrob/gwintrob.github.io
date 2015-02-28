@@ -123,16 +123,3 @@ Here are seven scientifically-backed lessons to help learn a new language.
    <img src="images/noob_german.gif" width="600px" class="block-center"></img>
 
    This pronunciation training kick starts your German learning.  Check out [Noob German](https://noobgerman.com/) and please let us know your thoughts [@NoobGerman](https://twitter.com/noobgerman).
-
-<!--
-see citations in "Second Language Learning Theories"
-for 3:
- are learned fundamentally differently (https://www.dropbox.com/s/hwt4ujm8n993yk8/Screenshot%202015-02-17%2020.49.58.png?dl=0)
-"Writing and Literacy in Chinese, Korean and Japanese" and http://www.cogsci.ucsd.edu/~deak/classes/EDS115/Stevenson_Stigler_1992.pdf
-4. Something about recognizing asian alphabets
-http://i.imgur.com/aYcZks1.png
-"Bilingual Development and Literacy Learning"
-
-http://earlyliteracylearning.org/cellreviews/cellreviews_v6_n2.pdf
-By studying a group of native Spanish speakers who learned Swedish as children, they showed that no one who learned the new language after the age of 12 spoke like a true native.
--->
