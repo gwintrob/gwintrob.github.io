@@ -1,5 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gordon Wintrob's Personal Site]]></title><description><![CDATA[Gordon Wintrob's Personal Site]]></description><link>http://gwintrob.com/</link><generator>metalsmith-feed</generator><lastBuildDate>Fri, 23 Jan 2015 15:38:33 GMT</lastBuildDate><atom:link href="http://gwintrob.com/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Gordon Wintrob]]></author><item><title><![CDATA[How Segment is Changing the SaaS Marketplace]]></title><description><![CDATA[<!DOCTYPE html><html><head><title>How Segment is Changing the SaaS Marketplace</title><meta name="description" content="Gordon Wintrob's Personal Site"><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,400,600"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/ss-gizmo.css"><link rel="stylesheet" type="text/css" href="css/ss-social-circle.css"><script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gordon Wintrob's Personal Site]]></title><description><![CDATA[Gordon Wintrob's Personal Site]]></description><link>http://gwintrob.com/</link><generator>metalsmith-feed</generator><lastBuildDate>Sat, 28 Feb 2015 21:39:00 GMT</lastBuildDate><atom:link href="http://gwintrob.com/rss.xml" rel="self" type="application/rss+xml"/><author><![CDATA[Gordon Wintrob]]></author><item><title><![CDATA[7 Lessons for Language Learners]]></title><description><![CDATA[<!DOCTYPE html><html><head><title>7 Lessons for Language Learners</title><meta name="description" content="Gordon Wintrob's Personal Site"><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,400,600"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/ss-gizmo.css"><link rel="stylesheet" type="text/css" href="css/ss-social-circle.css"><script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
+analytics.load("Boo2cBGyhUD4L9UEaLSQXJr2MMZWP7tu");
+analytics.page()
+}}();</script></head><body><div class="nav"><a href="/" class="a-fade ss-gizmo ss-home a-home"></a></div><div class="header"><h1 class="name">Gordon Wintrob</h1><div class="social-links"><a href="https://www.linkedin.com/in/gwintrob" class="a-fade ss-icon">linkedin</a><a href="https://twitter.com/gwintrob" class="a-fade ss-icon">twitter</a><a href="https://github.com/gwintrob" class="a-fade ss-icon">octocat</a><a href="/rss.xml" class="a-fade ss-icon">rss</a><a href="mailto:gwintrob@gmail.com?Subject=Hey Gordon" class="a-fade ss-icon">mail</a></div></div><div class="article"><h1 class="article-title">7 Lessons for Language Learners</h1><div class="article-contents"><p>Learning a new language has many well-researched benefits.
+This year, I&#39;ve set aside time to learn German and build more projects in public.
+And this month, I&#39;m launching a new website that achieves both goals: <a href="https://noobgerman.com/">Noob German</a> (more on this later).</p>
+<p>Here are seven scientifically-backed lessons to help learn a new language.</p>
+<h3>
+1. You&#39;re not too old
+</h3>
+
+<p>   Prevailing wisdom said that only children&#39;s flexible brains could learn a new language.
+   As recently as <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1467-9922.2009.00507.x/abstract">2009</a>, researchers found that adult learners almost never attain fluency.</p>
+<p>   <img src="images/old_dog.jpg" width="400px" class="block-center"></img></p>
+<p>   Thankfully, if you&#39;re learning a language as an adult, you&#39;re not out of luck!
+   A <a href="http://www.newscientist.com/article/mg21128224.000-age-no-excuse-for-failing-to-learn-a-new-language.html">2011 study</a> showed that adult learners were better at learning new grammar patterns.
+   More recently, professors from <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0032974">UIC and Georgetown</a> demonstrated that adults can retain this knowledge even after several months not speaking the language.</p>
+<h3>
+2. Plan a trip
+</h3>
+
+<p>  Duolingo sponsored an <a href="http://static.duolingo.com/s3/DuolingoReport_Final.pdf">independent report</a> to measure their app&#39;s effectiveness.
+  The app is incredibly valuable: 26-49 hours of Duolingo practice works as well as a first college semester Spanish course.</p>
+<p>  The study quantifies how the reason for learning a new language affects success.
+  Studying for personal interest shows the worst improvement for each hour of study despite being the most common motivator.
+  The most effective motivator? Studying for travel.
+  Students motivated by a trip learn more than three times as much per hour of study.</p>
+<p>  <img src="images/travel.jpg" width="600px" class="block-center"></img></p>
+<p>  If you&#39;re looking to learn a language, nothing lights a fire in your belly like an upcoming trip to Oktoberfest or Carnival.</p>
+<h3>
+3. Chinese characters vs. English words
+</h3>
+
+<p>   English speakers learning Chinese or another <a href="http://en.wikipedia.org/wiki/Logogram">logographic</a> language need a lot of patience.
+   Even native speakers acquire these languages differently.</p>
+<p>   For example, a study of education systems published in 1992 (<a href="http://www.cogsci.ucsd.edu/~deak/classes/EDS115/Stevenson_Stigler_1992.pdf">PDF link</a>) considers how grade school learners read above their grade level.
+   They find that more students in Beijing enter first grade above expected reading levels compared to students in Chicago.
+   But, the percentage of Beijing students reading above grade level quickly falls to 0, while many Chicago students continue outperforming:</p>
+<p>   <img src="https://docs.google.com/spreadsheets/d/1AcRcmuslso6jcLUhUYIZd18tcYTbo86Dxyzo1jjOS1w/pubchart?oid=568842167&amp;format=image" alt="Ability to read above grade level"></p>
+<p>   This makes sense: logographic languages don&#39;t have words that can be decoded into familiar parts.
+   If you&#39;re learning an alphabetic language like English or German, you can infer vocab from simpler words.
+   For example, knowing &quot;birth&quot; (&quot;Geburt&quot;) and &quot;day&quot; (&quot;Tag&quot;) means you&#39;ve already learned &quot;birthday&quot; (&quot;Geburtstag&quot;).
+   Logographic language learners don&#39;t have these helpful cues.</p>
+<h3>
+4. Speaking is fundamental
+</h3>
+
+<p>   Depending on your goals, learning to speak a language generally reaps more tangible results than learning to read.
+   It doesn&#39;t matter how many words you can read on the menu if you just want to order dinner!
+   Studies on poor readers across languages prove this point.</p>
+<p>   The <a href="http://www.tandfonline.com/doi/abs/10.1080/10888438.2012.689787#.VOIrm7DF84Q">latest research</a> shows that ineffective foreign language readers have two main problems.
+   First, they lack <strong>morphological awareness</strong>, the ability to identify word parts that are significant (like the Chicago grade schoolers decoding new vocab).
+   Second, they underperform in <strong>phonological awareness</strong>, hearing the sounds that make up words.</p>
+<p>   Diligently studying words&#39; components and sounds can accelerate learning.
+   Importantly, both of these issues can be corrected by focusing on proper speaking, which forces a student to break down words into constituent parts and sound them out correctly.</p>
+<h3>
+5. Find a constructive teacher
+</h3>
+
+<p>   A <a href="http://www.sciencedirect.com/science/article/pii/S0346251X13001905">recent paper</a> studies students&#39; journal entries to understand how teachers affect willingness to communicate (WTC) in a new language.
+   The students were a group of 50 undergrads who were required to write focused essays on their classroom conversations.
+   Students generally felt more comfortable speaking a language if the teachers were patient when waiting for answers, let the students choose conversation topics, and did not immediately correct problems.</p>
+<p>   In contrast, when teachers did not show patience, the students became obsessed with mistakes:</p>
+<blockquote>
+<p> It is very unpleasant to hear the correct grammatical form or pronunciation when you are speaking in the classroom...I decided to speak when I am sure about the accuracy of sentence I&#39;m going to say.</p>
+</blockquote>
+<p>   The students with the strongest WTC viewed the teachers more like friendly partners who &quot;help you to deliver your message by providing explanations.&quot;
+   Finding language learning partners (via a service like <a href="https://www.cambly.com/">Cambly</a>) and using software that provides this kind of feedback can be more effective than classroom language learning.</p>
+<h3>
+6. Seek explicit feedback
+</h3>
+
+<p>   Have you ever tried to learn something when a teacher simply repeats the correct answer?
+   This can be frustrating, especially when trying to pick up something subtle like an unexpected sound or vocab word.</p>
+   <iframe class="block-center" width="420" height="315" src="https://www.youtube.com/embed/kTcRRaXV-fg?start=90" frameborder="0" allowfullscreen></iframe>
+
+<p>   Three researchers from New Zealand <a href="http://dx.doi.org/10.1017/S0272263106060141">studied this problem</a> with students learning the English past tense.
+   Not surprisingly, simply repeating the correct answer when students make mistakes is ineffective.
+   Students do a far better job learning the past tense rules when they are explicitly corrected (e.g. &quot;you need the <em>-ed</em> past tense ending here&quot;).</p>
+<p>   Seek out this explicit feedback when learning a language.
+   It&#39;s a much faster way to improve and retain new information.</p>
+<h3>
+7. Train your ear
+</h3>
+
+<p>   Pronunciation is the key to success for learning a new language.</p>
+<p>   One of the most studied pronunciation topics is how English speakers learn the difference between the <em>l-</em> and <em>r-</em> sounds as in &quot;lock&quot; and &quot;rock&quot; or &quot;load&quot; and &quot;road&quot;.
+   Researchers at Carnegie Mellon dove into this problem in a <a href="http://psych.stanford.edu/~jlm/papers/McCFiezMcCandliss02.pdf">2002 paper</a>.
+   The researchers had Japanese adults listen to a recording of &quot;lock&quot; or &quot;rock&quot; at random and then select the sound they heard.
+   Although their initial performance was poor, it increased to 80% accuracy when the subjects received immediate feedback on wrong answers.
+   More importantly, these subjects became better at distinguishing other English words and speaking correctly after the training.</p>
+<p>   My buddy <a href="http://www.andyjiang.com/">Andy Jiang</a> and I built <a href="https://noobgerman.com/">Noob German</a> based on this research.
+   Noob German is a simple flash card trainer for anyone learning German.
+   Each flash card plays a German sound and you are asked to select from two options.</p>
+<p>   <img src="images/noob_german.gif" width="600px" class="block-center"></img></p>
+<p>   This pronunciation training kick starts your German learning.  Check out <a href="https://noobgerman.com/">Noob German</a> and please let us know your thoughts <a href="https://twitter.com/noobgerman">@NoobGerman</a>.</p>
+<!--
+see citations in "Second Language Learning Theories"
+for 3:
+ are learned fundamentally differently (https://www.dropbox.com/s/hwt4ujm8n993yk8/Screenshot%202015-02-17%2020.49.58.png?dl=0)
+"Writing and Literacy in Chinese, Korean and Japanese" and http://www.cogsci.ucsd.edu/~deak/classes/EDS115/Stevenson_Stigler_1992.pdf
+4. Something about recognizing asian alphabets
+http://i.imgur.com/aYcZks1.png
+"Bilingual Development and Literacy Learning"
+
+http://earlyliteracylearning.org/cellreviews/cellreviews_v6_n2.pdf
+By studying a group of native Spanish speakers who learned Swedish as children, they showed that no one who learned the new language after the age of 12 spoke like a true native.
+--></div><div class="footer"><hr><small>Want to get in touch? <a href="https://twitter.com/gwintrob">Tweet</a> 
+at me.</small></div></div></body></html>]]></description><link>http://gwintrob.com/articles/7-lessons-for-language-learners</link><guid isPermaLink="true">http://gwintrob.com/articles/7-lessons-for-language-learners</guid><dc:creator><![CDATA[Gordon Wintrob]]></dc:creator><pubDate>Sat, 21 Feb 2015 00:00:00 GMT</pubDate></item><item><title><![CDATA[How Segment is Changing the SaaS Marketplace]]></title><description><![CDATA[<!DOCTYPE html><html><head><title>How Segment is Changing the SaaS Marketplace</title><meta name="description" content="Gordon Wintrob's Personal Site"><link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:100,400,600"><link rel="stylesheet" type="text/css" href="css/style.css"><link rel="stylesheet" type="text/css" href="css/ss-gizmo.css"><link rel="stylesheet" type="text/css" href="css/ss-social-circle.css"><script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.0.1";
 analytics.load("Boo2cBGyhUD4L9UEaLSQXJr2MMZWP7tu");
 analytics.page()
 }}();</script><link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.8/c3.min.css"></head><body><div class="nav"><a href="/" class="a-fade ss-gizmo ss-home a-home"></a></div><div class="header"><h1 class="name">Gordon Wintrob</h1><div class="social-links"><a href="https://www.linkedin.com/in/gwintrob" class="a-fade ss-icon">linkedin</a><a href="https://twitter.com/gwintrob" class="a-fade ss-icon">twitter</a><a href="https://github.com/gwintrob" class="a-fade ss-icon">octocat</a><a href="/rss.xml" class="a-fade ss-icon">rss</a><a href="mailto:gwintrob@gmail.com?Subject=Hey Gordon" class="a-fade ss-icon">mail</a></div></div><div class="article"><h1 class="article-title">How Segment is Changing the SaaS Marketplace</h1><div class="article-contents"><p><a href="https://segment.com/">Segment</a> is a customer data hub that makes it easy for websites and mobile apps to integrate 3rd-party analytics tools.

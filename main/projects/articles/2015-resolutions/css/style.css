@@ -144,3 +144,9 @@ p + p {
   display: block;
   height: 320px;
 }
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
