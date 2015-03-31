@@ -2,6 +2,7 @@
 title: How Segment is Changing the SaaS Marketplace
 date: 2015-01-15
 collection: articles
+graphType: segment
 template: graph_article.jade
 ---
 

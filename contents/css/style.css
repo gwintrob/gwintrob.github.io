@@ -150,3 +150,7 @@ p + p {
   margin-right: auto;
   display: block;
 }
+
+.center {
+  text-align: center;
+}
