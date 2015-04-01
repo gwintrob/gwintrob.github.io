@@ -7,7 +7,7 @@ template: graph_article.jade
 
 Modern airplane travel is spectacular.
 The Department of Transportation [reported](http://www.rita.dot.gov/bts/press_releases/bts015_15) that an all-time high 848.1 million passengers flew in the U.S. in 2014.
-And remarkably, only 41 of these passengers were killed.
+And remarkably, all of those passengers survived.
 
 <h2 class="center">Total Fatalities</h2>
 <div id="chart-fatalities" class="chart"></div>
@@ -18,9 +18,9 @@ With modern tragedies like the missing [Malaysia air flight](http://en.wikipedia
 As dangerous situations become less likely, do the few remaining accidents become more fatal?
 
 To answer this question, I gathered statistics from the [Bureau of Aircraft Accidents](http://www.baaa-acro.com/presentation/) and released the data on [GitHub](https://github.com/gwintrob/aircraft-incidents/).
-This graph shows the fraction of accidents with survivors over time:
+This graph shows the fraction of accidents with no survivors over time:
 
-<h2 class="center">Percent of Accidents with Survivors</h2>
+<h2 class="center">Accidents with no Survivors</h2>
 <div id="chart-survivors" class="chart"></div>
 
 The results are bleak.
@@ -28,5 +28,5 @@ Accidents with at least one survivor fell by 43% worldwide from 2007 to 2014.
 And the numbers are even worse for the US.
 97% of plane accidents had some survivors in 2007, but only 44% in 2014.
 
-<h2 class="center">Percent of Accidents with Survivors</h2>
+<h2 class="center">Accident Fatality Rate</h2>
 <div id="chart-fatality-rate" class="chart"></div>
