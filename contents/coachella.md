@@ -34,6 +34,8 @@ This growth leveled off over the past year and now may be the time for Coachella
 Regardless, I'm buying 2016 tickets as soon they're released (typically 11 months in advance!).
 Hopefully I'll still be able to convince Ilya to come :-)
 
+  <img src="images/coachella_crowd.png" width="600px" class="block-center"></img>
+
 I used [Mode](https://modeanalytics.com/), a collaborative SQL tool, to generate the graphs in this report.
 The raw data is from Wikipedia and includes some additional features like each artist's founding year and whether or not they headlined at Coachella.
 Here's the [raw dataset](https://modeanalytics.com/gwintrob/tables/coachella_artists) and the [electronic](https://modeanalytics.com/gwintrob/reports/0c9acf63cfcf) and [rock](https://modeanalytics.com/gwintrob/reports/a1296601f789) reports.
