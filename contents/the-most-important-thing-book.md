@@ -1,6 +1,6 @@
 ---
 title: The Most Important Thing
-date: 2014-12-31
+date: 2015-09-30
 collection: articles
 template: article.jade
 ---
